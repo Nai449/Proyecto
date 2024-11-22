@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contenedor_principal{
+    margin: 0 auto;
+    max-width: 420px;
+    height: 100vh;
+    max-height: 745pxS;
+    background-color: peru;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;  
+    border: 3px solid gray;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+#resultado{
+    text-align: center;
+}
+#resultado img{
+    width: 40%;
+}
+
+#txt_inicial{
+    font-size: 26px;
+    text-align: center;
+    padding: 20px;
+}
+
+#grupo_de_btn{
+    display: flex;
+    width: 100%;
+}
+
+#grupo_de_btn img{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times;
+}
